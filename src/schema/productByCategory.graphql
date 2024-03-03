@@ -1,0 +1,3 @@
+extend type Query {
+  productsByCategory(categoryId: ID!): [Product!]!
+}
